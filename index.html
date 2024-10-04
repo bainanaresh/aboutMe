@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff7e0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            color: #ff6f61;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .skill-box {
+            background-color: #ffcccb;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="content" id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm [Your Name], and this is my personal blog where I share my journey, experiences, and the skills I've gained over time. I am passionate about learning new things and applying my skills to solve real-world problems.</p>
+    </div>
+
+    <div class="content" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill-box">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, React</p>
+            </div>
+            <div class="skill-box">
+                <h3>Design</h3>
+                <p>UI/UX, Graphic Design, Figma</p>
+            </div>
+            <div class="skill-box">
+                <h3>Programming</h3>
+                <p>Python, Java, C++</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email at: <strong>[your.email@example.com]</strong></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Personal Blog</p>
+    </footer>
+
+</body>
+</html>
